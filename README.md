@@ -36,8 +36,8 @@ The dataset used for this project is `kc_house_data.csv`. It contains informatio
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/king-county-house-sales.git
-   cd king-county-house-sales
+   git clone https://github.com/MWENDA1999/DSF_FT-Group-9-Phase-2-project.git
+   cd DSF_FT-Group-9-Phase-2-project
    ```
 
 2. Install the necessary dependencies:
