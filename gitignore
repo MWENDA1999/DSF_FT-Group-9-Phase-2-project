@@ -4,4 +4,4 @@ __pycache__
 *.pytest_cachegit 
 *.csv
 *.pdf
-**/.ipynb_checkpoints/
+*.ipynb_checkpoints
