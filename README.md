@@ -15,7 +15,7 @@ Main Objective
 The ultimate goal is to develop a pricing model that enables real estate investors to accurately estimate market values.
 
 3.	NOTEBOOK STRUCTURE
-The python notebook is structured as follows:
+The Python notebook is structured as follows:
 •	Data Understanding
 •	Data Preparation
 •	EDA & Visualizations
@@ -24,7 +24,7 @@ The python notebook is structured as follows:
 
 4.	DATA UNDERSTANDING
 The Data
-The data used is from the ‘king_county,csv file’ that contains the below features:
+The data used is from the ‘king_county,CSV file’ that contains the below features:
 •	sqft_above and sqft_basement
 •	yr_renovated and yr_built
 •	lat and long
@@ -39,29 +39,26 @@ The data used is from the ‘king_county,csv file’ that contains the below fea
 
 
 5.	DATA PREPARATION
-The data was checked for missing values and some columns were found to have null values. The null values were handled by dropping all the rows with them. Some columns were not in their appropriate data type so this was corrected to create a cleaner and easier to work with data frame. We also did some feature engineering on some few columns and sorted the features in descending order based on prices
+The data was checked for missing values and some columns were found to have null values. The null values were handled by dropping all the rows with them. Some columns were not in their appropriate data type so this was corrected to create a cleaner and easier to work with data frame. We also did some feature engineering on a few columns and sorted the features in descending order based on prices
 
 
 
 
 
 6.	EDA & VISUALIZATIONS
-By carrying out EDA on the cleaned data as seen in this notebook, various patterns were discovered in the dependent and independent variables. This analysis made it possible to understand how the value of the dependent variable changes as the value of any of the independent variables change.
+By carrying out EDA on the cleaned data as seen in this notebook, various patterns were discovered in the dependent and independent variables. This analysis made it possible to understand how the value of the dependent variable changes as the value of any of the independent variables changes.
+We started with a correlation heat map to check for features that are correlated with price.
+![image](https://github.com/MWENDA1999/DSF_FT-Group-9-Phase-2-project/assets/141914238/edd40258-7634-4b88-9c5d-84316ab47aa6)
 
- 
-
-
-
-Also we did some scatter plots and some few graphs to further understand the different features in our dataframe
-
-
-
- 
-
-
+To further visualize the relationships, let's plot scatter plots for sqft_living and boxplots for, waterfront, view, and grade against the price.​ we did some scatter plots and a few graphs to further understand the different features in our data frame
+![image](https://github.com/MWENDA1999/DSF_FT-Group-9-Phase-2-project/assets/141914238/3a3ea4a3-5024-4a08-b992-cdc2d3f47e56)
 
 7.	MODELLING
+We compared the different models we made to see their effects.
+![image](https://github.com/MWENDA1999/DSF_FT-Group-9-Phase-2-project/assets/141914238/54417ee5-959e-4ce4-b6bf-30b21b931bff)
 
+![image](https://github.com/MWENDA1999/DSF_FT-Group-9-Phase-2-project/assets/141914238/892b7b95-3c52-4fea-93f2-6ff5ca8676b7)
+From the above graph, we made a conclusion :
 •	Linear Regression 
 Linear Regression has an accuracy of 70%
 
