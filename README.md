@@ -24,7 +24,7 @@ The Python notebook is structured as follows:
 
 4.	DATA UNDERSTANDING
 The Data
-The data used is from the ‘king_county,CSV file’ that contains the below features:
+The data used is from the ‘king_county, CSV file’ that contains the below features:
 •	sqft_above and sqft_basement
 •	yr_renovated and yr_built
 •	lat and long
