@@ -48,7 +48,7 @@ The dataset used for this project is `kc_house_data.csv`. It contains informatio
 ## Usage
 
 1. Ensure you have Python and the required libraries installed (see Installation).
-2. Open the Jupyter Notebook file `King_County_House_Sales.ipynb`.
+2. Open the Jupyter Notebook on students.ipynb`.
 3. Run the notebook cells to explore the analysis, visualization, and regression modeling.
 
 ## Data Preparation
