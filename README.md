@@ -1,6 +1,7 @@
 Predictions for Housing Prices
 
- 
+ ![historic](https://github.com/MWENDA1999/DSF_FT-Group-9-Phase-2-project/assets/141914238/7cad1fc6-d176-4033-9537-7099219e79a5)
+
 
 1.	INTRODUCTION - King County House Sales Dataset
 the King County House Sales dataset is a dataset that contains information related to the houses in the King County location. 
@@ -76,4 +77,5 @@ Stakeholders are advised to leverage the iterative model for predicting house pr
 
 However, it's crucial to acknowledge that, despite its reasonable performance, linear regression models, such as the one employed, come with inherent limitations and uncertainties. These include assumptions of linearity and normality. To make comprehensive pricing decisions, it's recommended to use the model in tandem with domain expertise and additional data. Moreover, considering the dynamic nature of real estate, stakeholders should explore further refinements and enhancements to the model to improve its predictive accuracy over time.
 
- 
+ ![california_housing](https://github.com/MWENDA1999/DSF_FT-Group-9-Phase-2-project/assets/141914238/3a7975cb-0456-4d79-be09-d4332e61b2ee)
+
