@@ -53,6 +53,7 @@ We started with a correlation heat map to check for features that are correlated
 To further visualize the relationships, let's plot scatter plots for sqft_living and boxplots for, waterfront, view, and grade against the price.​ we did some scatter plots and a few graphs to further understand the different features in our data frame
 ![image](https://github.com/MWENDA1999/DSF_FT-Group-9-Phase-2-project/assets/141914238/3a3ea4a3-5024-4a08-b992-cdc2d3f47e56)
 
+
 7.	MODELLING
 We compared the different models we made to see their effects.
 ![Screenshot (197)](https://github.com/MWENDA1999/DSF_FT-Group-9-Phase-2-project/assets/141914238/507e6365-c55b-4516-81a8-1f05359209b5)
