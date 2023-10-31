@@ -55,18 +55,20 @@ To further visualize the relationships, let's plot scatter plots for sqft_living
 
 7.	MODELLING
 We compared the different models we made to see their effects.
-![image](https://github.com/MWENDA1999/DSF_FT-Group-9-Phase-2-project/assets/141914238/54417ee5-959e-4ce4-b6bf-30b21b931bff)
+![Screenshot (197)](https://github.com/MWENDA1999/DSF_FT-Group-9-Phase-2-project/assets/141914238/507e6365-c55b-4516-81a8-1f05359209b5)
 
-![image](https://github.com/MWENDA1999/DSF_FT-Group-9-Phase-2-project/assets/141914238/892b7b95-3c52-4fea-93f2-6ff5ca8676b7)
 From the above graph, we made a conclusion :
 •	Linear Regression 
 Linear Regression has an accuracy of 70%
+![Screenshot (198)](https://github.com/MWENDA1999/DSF_FT-Group-9-Phase-2-project/assets/141914238/709d734d-a3e0-46a8-b062-caefac1d7f4e)
 
 •	Random Forest 
 Random Forest Model accuracy lies at 87%
+![Screenshot (199)](https://github.com/MWENDA1999/DSF_FT-Group-9-Phase-2-project/assets/141914238/f6fbf24d-98d5-4ba9-98bb-44564f1030d1)
 
 •	XGBoost
 XGBoost Regressor Model accuracy lies at 87%
+![Screenshot (200)](https://github.com/MWENDA1999/DSF_FT-Group-9-Phase-2-project/assets/141914238/ce1b4abc-4b70-4cb7-b9ab-854339498297)
 
 
 8.	RECOMMENDATIONS
