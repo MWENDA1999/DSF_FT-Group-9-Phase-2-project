@@ -1,74 +1,79 @@
----
+Predictions for Housing Prices
 
-# King County House Sales Analysis
+ 
 
-This project aims to analyze house sales data in King County, Washington, using regression modeling techniques. The analysis involves predicting house prices based on various features like square footage, renovation year, location coordinates, and more.
+1.	INTRODUCTION - King County House Sales Dataset
+the King County House Sales dataset is a dataset that contains information related to the houses in the King County location. 
+The dataset provides information on house sales in King County, offering a valuable resource for exploring real estate trends and patterns. It's worth noting that, like many real-world datasets, the column names may not provide perfect descriptions. In such cases, some additional research or  best judgment may be necessary to interpret the data accurately.
 
-## Table of Contents
 
-- [Project Overview](#project-overview)
-- [Dataset](#dataset)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Data Preparation](#data-preparation)
-- [Modeling](#modeling)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+2.	BUSINESS PROBLEM
+Utilizing the King County dataset, the goal is to furnish homeowners with effective information strategies to significantly enhance the future value of their homes. The approach involves developing a predictive model that can accurately forecast house prices based on the dataset's variables. This predictive understanding will serve as a foundation for informed decisions regarding property investments, sales strategies, and pricing recommendations for clients. The intended outcome is to empower homeowners with insights that contribute to more successful and knowledgeable real estate endeavors.
 
-## Project Overview
+Main Objective
+The ultimate goal is to develop a pricing model that enables real estate investors to accurately estimate market values.
 
-This project involves the following key steps:
+3.	NOTEBOOK STRUCTURE
+The python notebook is structured as follows:
+•	Data Understanding
+•	Data Preparation
+•	EDA & Visualizations
+•	Data Evaluation and Modelling
 
-1. **Data Understanding and Exploration**: Analyzing the dataset to understand its structure, features, and patterns.
 
-2. **Data Preparation**: Preprocessing the data, handling missing values, converting non-numeric data, and performing feature engineering.
+4.	DATA UNDERSTANDING
+The Data
+The data used is from the ‘king_county,csv file’ that contains the below features:
+•	sqft_above and sqft_basement
+•	yr_renovated and yr_built
+•	lat and long
+•	waterfront and view
+•	condition and grade
+•	sqft_living15
+•	sqft_lot15
+•	Bedrooms
+•	Bathrooms
+•	Sqft_Living and sqft_lot
+•	Floors
 
-3. **Modeling**: Building, evaluating, and iterating on regression models to predict house prices.
 
-4. **Results and Visualization**: Visualizing model performance and presenting the findings.
+5.	DATA PREPARATION
+The data was checked for missing values and some columns were found to have null values. The null values were handled by dropping all the rows with them. Some columns were not in their appropriate data type so this was corrected to create a cleaner and easier to work with data frame. We also did some feature engineering on some few columns and sorted the features in descending order based on prices
 
-## Dataset
 
-The dataset used for this project is `kc_house_data.csv`. It contains information about house sales in King County, Washington, including features such as square footage, renovation year, location coordinates, and more.
 
-## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/MWENDA1999/DSF_FT-Group-9-Phase-2-project.git
-   cd DSF_FT-Group-9-Phase-2-project
-   ```
 
-2. Install the necessary dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+6.	EDA & VISUALIZATIONS
+By carrying out EDA on the cleaned data as seen in this notebook, various patterns were discovered in the dependent and independent variables. This analysis made it possible to understand how the value of the dependent variable changes as the value of any of the independent variables change.
 
-## Usage
+ 
 
-1. Ensure you have Python and the required libraries installed (see Installation).
-2. Open the Jupyter Notebook file `King_County_House_Sales.ipynb`.
-3. Run the notebook cells to explore the analysis, visualization, and regression modeling.
 
-## Data Preparation
 
-- Details about how the data was preprocessed and prepared for modeling can be found in the [Data Preparation](#data-preparation) section of the notebook.
+Also we did some scatter plots and some few graphs to further understand the different features in our dataframe
 
-## Modeling
 
-- Information about the baseline model, iterative model, RidgeCV model, and their respective code can be found in the [Modeling](#modeling) section of the notebook.
 
-## Results
+ 
 
-- Details about the regression results, including model metrics and coefficients, can be found in the [Regression Results](#regression-results) section of the notebook.
 
-## Contributing
 
-Contributions are welcome! Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for more details.
+7.	MODELLING
 
-## License
+•	Linear Regression 
+Linear Regression has an accuracy of 70%
 
-This project is licensed under the [MIT License](LICENSE).
+•	Random Forest 
+Random Forest Model accuracy lies at 87%
 
----
+•	XGBoost
+XGBoost Regressor Model accuracy lies at 87%
+
+
+8.	RECOMMENDATIONS
+Stakeholders are advised to leverage the iterative model for predicting house prices, as it demonstrates superior performance by explaining approximately 54.9% of the variance. The model's coefficients offer valuable insights into the impact of specific features on house prices, facilitating well-informed decisions for pricing strategies.
+
+However, it's crucial to acknowledge that, despite its reasonable performance, linear regression models, such as the one employed, come with inherent limitations and uncertainties. These include assumptions of linearity and normality. To make comprehensive pricing decisions, it's recommended to use the model in tandem with domain expertise and additional data. Moreover, considering the dynamic nature of real estate, stakeholders should explore further refinements and enhancements to the model to improve its predictive accuracy over time.
+
+ 
